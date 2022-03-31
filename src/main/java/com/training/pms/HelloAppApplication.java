@@ -14,6 +14,7 @@ public class HelloAppApplication {
 	}
 	@GetMapping("/sayHello")
 	public String sayHello() {
+		System.out.println("Modified the code");
 		return "Hello My Friend";
 	}
 	@GetMapping("/sayBye")
